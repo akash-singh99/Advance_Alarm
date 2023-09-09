@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="customTransparentColor">#00ffffff</color>
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#E0E0E0</color>
+    <color name="colorListViewBackgroundDeleteRow">#590909</color>
+    <color name="colorListViewBackground">#5b5a5a</color>
+    <color name="transparent">#ffff</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="solid_color">#c20909</color>
+    <color name="backgroundColorBlack">#000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffff</color>
+    <color name="green_correct_choose">#7b004f07</color>
+    <color name="navigationBarColor">#262626</color>
+
+    <color name="alertDialogMainMathAlarmBackgroundColor">#212121</color>
+    <color name="alertDialogMainMathAlarmAccentColor">#BF360C</color>
+    <color name="alertDialogMainMathAlarmTextPrimaryColor">#ffffff</color>
+    <color name="alertDialogMainMathAlarmTitleColor">#004479</color>
+    <color name="alertDialogMainMathAlarmTextColorSecondary">#a8ffffff</color>
+    <color name="alertDialogMainMathAlarmTextColorAlertDialogListItem">#ffffff</color>
+
+    <color name="alertDialogButtonTextStyle">#050400</color>
+    <color name="alertDialogButtonBackground">#ffff</color>
+
+
+    <color name="color_alarm_not_pressed">#91000000</color>
+    <color name="color_alarm_pressed">#910b0d28</color>
+    <color name="main_button_time">#003589</color>
+    <color name="main_layout_backgroundEvening">#910b0d28</color>
+    <color name="main_layout_backgroundDay">#913e81bf</color>
+
+    <color name="day_of_week">#e2deaf</color>
+    <color name="day_of_week_chosen">#308f00</color>
+    <color name="pressedHelperRectangleView">#efff86</color>
+
+    <color name="helperTextMessagesDark">#c8ff00</color>
+    <color name="helperTextMessagesLight">#000000</color>
+    <color name="blockedButton">#88a69898</color>
+    <color name="darkOrange">#ba2f00</color>
+
+    <color name="pressedPreviewTextView">#aa004d40</color>
+    <color name="snoozeButtonColor">#afafaf</color>
+    <color name="displayMessageTextColor">#1a237e</color>
+
+</resources>

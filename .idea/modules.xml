@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Advance_Alarm.iml" filepath="$PROJECT_DIR$/.idea/modules/Advance_Alarm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Advance_Alarm.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Advance_Alarm.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Advance_Alarm.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Advance_Alarm.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Advance_Alarm.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Advance_Alarm.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Advance_Alarm.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Advance_Alarm.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,136 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorAlertDialogListItem">
+            @color/alertDialogMainMathAlarmTextPrimaryColor
+        </item>
+    </style>
+
+    <style name="AlertDialogCustomStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/alertDialogMainMathAlarmBackgroundColor</item>
+        <item name="android:textColorAlertDialogListItem">@color/white</item>
+        <item name="textColorAlertDialogListItem">@color/white</item>
+        <item name="colorAccent">@color/alertDialogMainMathAlarmAccentColor</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:colorBackground">@color/alertDialogMainMathAlarmBackgroundColor</item>
+        <item name="android:textColorSecondary">@color/alertDialogMainMathAlarmTextColorSecondary
+        </item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:windowTitleStyle">@style/alertDialogTitleStyle</item>
+    </style>
+
+    <style name="alertDialogTitleStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/alertDialogMainMathAlarmTitleColor</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="dayOfWeekStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/day_of_week</item>
+        <item name="android:textSize">@dimen/day_of_week_text_size</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="ChosenDayOfTheWeek_TextTheme" parent="android:Theme">
+        <item name="android:textViewStyle">@style/ChosenDayOfWeekStyle</item>
+    </style>
+
+    <style name="ChosenDayOfWeekStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/day_of_week_chosen</item>
+        <item name="android:textSize">@dimen/day_of_week_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="alarmTime_TextTheme" parent="android:Theme">
+        <item name="android:textViewStyle">@style/alarmTimeStyle</item>
+    </style>
+
+    <style name="alarmTimeStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/alertDialogMainMathAlarmAccentColor</item>
+        <item name="android:textSize">@dimen/alarm_time_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="HelperTheme" parent="android:Theme">
+        <item name="android:textViewStyle">@style/helperStyle</item>
+    </style>
+
+    <style name="helperStyle" parent="android:Widget.TextView">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/background_for_helping_views</item>
+    </style>
+
+    <style name="helperDarkTextAppearance" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@color/helperTextMessagesDark</item>
+        <item name="android:textSize">@dimen/helperTextMessages_size</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="helperLightAppearance" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/helperTextMessagesLight</item>
+        <item name="android:textSize">@dimen/helperTextMessages_size</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+
+    <style name="AlarmSettingImagineButtonTheme" parent="android:Theme">
+        <item name="android:imageButtonStyle">@style/alarmSettingImagineButtonStyle</item>
+    </style>
+
+    <style name="alarmSettingImagineButtonStyle" parent="android:Widget.ImageButton">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@color/main_layout_backgroundEvening</item>
+        <item name="android:colorPressedHighlight">#ff0afb</item>
+        <item name="android:colorLongPressedHighlight">#ff0e0a</item>
+    </style>
+
+    <style name="basicAlarmViewsTheme" parent="android:Theme">
+        <item name="android:textViewStyle">@style/basicTextViewStyle</item>
+    </style>
+
+    <style name="basicTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="previewTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/background_preview_text_views</item>
+    </style>
+
+    <style name="previewTitleViewStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="displayAlarmButtonsStyle" parent="android:Widget.Button">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+    <style name="switchColorsTheme" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">#27ff00</item>
+        <item name="android:colorForeground">#f70000</item>
+    </style>
+
+    <style name="displayedTasksTextStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.akash.singh">
+
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.akash.singh.SmartAlarmApp"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.akash.singh.alarms.mathAlarm.mainAlarm.MainAlarmActivity"
+            android:configChanges="keyboard|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.akash.singh.alarms.mathAlarm.displayAlarm.DisplayAlarmActivity"
+            android:configChanges="keyboard|orientation|screenSize"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.akash.singh.alarmSettings.mainSettings.AlarmSettingsActivity"
+            android:configChanges="keyboard|orientation|screenSize"
+            android:label="new screen"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.akash.singh.alarms.mathAlarm.services.displayAlarmService.DisplayAlarmService"
+            android:enabled="true" />
+        <service
+            android:name="com.akash.singh.alarms.mathAlarm.services.WakeLockService"
+            android:enabled="true" />
+
+        <receiver
+            android:name="com.akash.singh.alarms.mathAlarm.receivers.AlarmReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="alarm_snooze" />
+                <action android:name="alarm_dismiss" />
+                <action android:name="alarm_start_new" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>
